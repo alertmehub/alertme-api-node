@@ -14,14 +14,14 @@ npm install alertme-api
 
 Passing in an API key
 ```js
-const Alertme = require('alertme-api');
+const Alertme = require('alertme-api-node');
 const client = new Alertme('YOUR_API_KEY');
 ```
 
 Using an API key stored in an environment variable
 ```js
 //Create an env var as ALERTME_API_KEY
-const Alertme = require('alertme-api');
+const Alertme = require('alertme-api-node');
 const client = new Alertme();
 ```
 
